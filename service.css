@@ -1,0 +1,140 @@
+.logo-center {
+  width: 100px;
+  height: 100px;
+  background-image: url("../image/Artboard\ 5.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-indent: 200%;
+  overflow: hidden;
+  margin: 20px auto;
+}
+
+.img-service {
+  background-image: url("../image/Artboard\ 12_1@4x.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 90vw;
+  height: 50vh;
+  margin: 40px auto;
+}
+
+.container-ser {
+  padding: 5rem;
+}
+
+.flex > .flex-item1,
+.flex-item2 {
+  width: 50vw;
+  height: 100vh;
+  position: relative;
+}
+
+.smaller {
+  height: 55vh !important;
+}
+.flex > .flex-item3 {
+  width: 50vw;
+  height: 100vh;
+  position: relative;
+  margin-left: 30px;
+  padding-left: 100px;
+}
+
+.flex > .flex-item4 {
+  width: 50vw;
+  height: 100vh;
+  position: relative;
+  margin-left: 30px;
+  padding-left: 100px;
+}
+
+.flex-item1 > .highlight {
+  font-family: Amaranth-Bold;
+  font-size: 1rem;
+}
+
+.finalItem > .highlight {
+  font-family: Amaranth-Bold;
+  font-size: 1rem;
+}
+
+.flex-item1 > .des {
+  font-family: Alegreya-Sans-Light;
+  font-size: 1rem;
+}
+
+.flex-item2 > .img {
+  background-image: url("../image/Artboard\ 13@4x.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  background-position: bottom;
+}
+
+.flex-item2 > .img-2 {
+  background-image: url("../image/Artboard\ 14@4x.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  background-position: bottom;
+}
+
+.flex-item4 > .img-3 {
+  background-image: url("../image/Artboard\ 15@4x.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  background-position: top;
+}
+
+.hands {
+  font-size: 3rem !important;
+}
+
+.button-service {
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  bottom: 0;
+}
+@font-face {
+  font-family: Yantramanav-Black;
+  src: url("../font/Yantramanav-Black.ttf");
+}
+.button-service > button {
+  font-family: Yantramanav-Black;
+  font-size: 1.5rem;
+  width: 100%;
+  height: 100%;
+  background-color: #c4c397;
+}
+
+.alaca-image {
+  background-image: url("../image/Artboard\ 21@4x.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 90vw;
+  height: 90vh;
+  margin: 0 auto;
+}
+
+.alatitle {
+  font-family: AlegreyaSans-Black;
+  font-size: 2rem;
+}
+
+.button-service-2 {
+  width: 100%;
+  height: 50px;
+}
+
+.button-service-2 > button {
+  font-family: Yantramanav-Black;
+  font-size: 1.5rem;
+  width: 100%;
+  height: 100%;
+  background-color: #c4c397;
+}

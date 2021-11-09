@@ -1,0 +1,316 @@
+body {
+  margin: 0px;
+}
+@font-face {
+  font-family: Amaranth-Bold;
+  src: url("../font/Amaranth-Bold.ttf");
+}
+
+@font-face {
+  font-family: Amaranth-Bold;
+  src: url("../font/Amaranth-Bold.ttf");
+}
+
+@font-face {
+  font-family: Alegreya-Sans-Light;
+  src: url("../font/AlegreyaSans-Light.ttf");
+}
+
+@font-face {
+  font-family: AlegreyaSans-Regular;
+  src: url("../font/AlegreyaSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: Yantramanav-Bold;
+  src: url("../font/Yantramanav-Bold.ttf");
+}
+
+@font-face {
+  font-family: AlegreyaSans-Black;
+  src: url("../font/AlegreyaSans-Black.ttf");
+}
+
+@font-face {
+  font-family: AlegreyaSans-Bold;
+  src: url("../font/AlegreyaSans-Bold.ttf");
+}
+
+.header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0px 4rem;
+  overflow: hidden;
+  background-color: #1f1f1f;
+}
+
+.header li {
+  float: left;
+}
+
+.header li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: AlegreyaSans;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  word-spacing: 5px;
+  font-family: Amaranth-Bold;
+}
+
+.header li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.logo {
+  background-image: url("../image/logo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-indent: 200%;
+  overflow: hidden;
+  margin: 5px 5px;
+}
+
+.flex {
+  display: flex;
+  height: 100vh;
+}
+
+.flex > .content {
+  padding-left: 5rem;
+  padding-top: 5rem;
+  width: 30vw;
+  height: 100vh;
+}
+
+.title {
+  font-family: AlegreyaSans-Bold;
+
+  font-size: 4rem;
+}
+
+.normalText {
+  padding-top: 2rem;
+  font-family: AlegreyaSans-Regular;
+  font-size: 1.7rem;
+}
+
+.font-Yantramanav-Bold{
+  font-family: Yantramanav-Bold;
+  font-weight: 900;
+}
+
+.flex > .image {
+  background-image: url("../image/Artboard\ 2@4x.png");
+  background-position: right;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 70vw;
+  height: 100vh;
+  align-self: flex-start;
+}
+
+.flex > .image-2 {
+  margin-left: 5rem;
+  background-image: url("../image/Artboard\ 12@4x.png");
+  background-position: right;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 40vw;
+  height: 100vh;
+  align-self: flex-start;
+}
+
+.flex > .content-2 {
+  padding-left: 5rem;
+  width: 50vw;
+  height: 100vh;
+}
+
+.normalText-2 {
+  padding-top: 2rem;
+  font-family: AlegreyaSans-Regular;
+  font-size: 1.5rem;
+}
+.learnMore-2 {
+  width: 40vw;
+  height: 8vh;
+  font-size: 2rem;
+  background-color: #c4c397;
+}
+
+.learnMore {
+  width: 30vw;
+  height: 8vh;
+  font-size: 2rem;
+  background-color: #c4c397;
+}
+
+.button {
+  padding-top: 2rem;
+}
+
+.slide {
+  margin-top: 3rem;
+}
+.carousel p {
+  font-family: Amaranth-Bold;
+  color: #ffffff;
+  font-size: 2.1rem;
+  display: flex;
+  justify-content: center;
+  padding-top: 200px;
+}
+
+.carousel-cell {
+  width: 24%;
+  height: 300px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+#slide-1 {
+  background-image: url("../image/Artboard\ 3\ copy\ 4@4x.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#slide-2 {
+  background-image: url("../image/Artboard\ 3\ copy\ 5@4x.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#slide-3 {
+  background-image: url("../image/Artboard\ 3\ copy\ 6@4x.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#slide-4 {
+  background-image: url("../image/Artboard\ 3\ copy\ 7@4x.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#slide-5 {
+  background-image: url("../image/Artboard\ 3@4x.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#slide-6 {
+  background-image: url("../image/Artboard\ 3\ copy@4x.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#slide-7 {
+  background-image: url("../image/Artboard\ 3\ copy\ 2@4x.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#slide-8 {
+  background-image: url("../image/Artboard\ 3\ copy\ 3@4x.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.footer {
+  margin-top: 200px;
+  height: 400px;
+  background-color: #111;
+  color: white;
+}
+
+.phone,
+.title-2 {
+  font-family: Amaranth-Bold;
+  padding-top: 2rem;
+  margin: 0 auto;
+  width: 30%;
+  text-align: center;
+}
+.title-2 {
+  font-size: 3rem;
+}
+
+.sub {
+  font-family: Alegreya-Sans-Light;
+  width: 30%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.input {
+  width: 60%;
+  height: 3rem;
+}
+
+.button-sub {
+  margin-left: 1rem;
+  width: 30%;
+  height: 3rem;
+}
+
+.input > input {
+  width: 100%;
+  height: 100%;
+}
+
+.button-sub > button {
+  width: 100%;
+  height: 100%;
+  color: white;
+  background-color: black;
+  border: 2px solid white;
+}
+
+.center {
+  margin: 0 auto;
+  width: 60%;
+}
+
+.icon1 {
+  width: 50px;
+  height: 50px;
+  background-image: url("../image/yt.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 10px 10px;
+  cursor: pointer;
+}
+
+
+.icon2 {
+  width: 50px;
+  height: 50px;
+  background-image: url("../image/ins.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 10px 10px;
+  cursor: pointer;
+}
+
+.icon3 {
+  width: 50px;
+  height: 50px;
+  background-image: url("../image/tw.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 10px 10px;
+  cursor: pointer;
+}
+
+.icon4 {
+  width: 50px;
+  height: 50px;
+  background-image: url("../image/fb.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 10px 10px;
+  cursor: pointer;
+}
+
+.icon {
+  width: 20%;
+  margin: 0 auto;
+}

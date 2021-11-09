@@ -1,0 +1,50 @@
+.flex-last {
+  display: flex;
+  padding: 5rem 10rem;
+}
+.flex-last > .item1 > .item1-img {
+  background-image: url("../image/Artboard\ 16@4x.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 50vw;
+  height: 124vh;
+  margin: 0 auto;
+}
+
+.flex-last > .item1 > .title {
+  font-family: AlegreyaSans-Bold;
+  font-size: 5.4rem !important;
+  width: 50vw;
+  margin: 0 auto;
+  line-height: 6rem;
+}
+
+.item2 > .item2-img2 {
+  background-image: url("../image/Artboard\ 19@4x.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 35vw;
+  height: 80vh;
+  margin: 0 auto;
+}
+
+.item2 > .item2-img1 {
+  background-image: url("../image/Artboard\ 20@4x.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 35vw;
+  height: 80vh;
+  margin: 10px auto;
+}
+
+.last-title {
+  padding: 1rem 10rem;
+  font-family: AlegreyaSans-Bold;
+  font-size: 2rem;
+}
+
+.last-des {
+  padding: 0rem 10rem;
+  font-family: AlegreyaSans-Regular;
+  font-size: 1.5rem;
+}

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Page Title</title>
+    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="mystyle.css">
+    <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" data-auto-replace-svg="nest"></script>
+    <link rel="stylesheet" href="footer.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+</head>
+
+<body>
+    <div class="header">
+        <ul>
+            <li class="logo">
+                <a href="index.html">
+                    Hello
+                </a>
+            </li>
+
+            <li style="float:right"><a href="#contact">CONTACT</a></li>
+            <li style="float:right"><a href="service.html">SPA</a></li>
+            <li style="float:right"><a href="index.html#slide">About US </a></li>
+        </ul>
+    </div>
+
+    <div class="flex">
+        <div class="content">
+            <div class="title"> Discover the Wonder</div>
+            <div class="normalText">Experience the tranquility of our unique, geothermal seawater. Stay at our hotels
+                designed for serenity
+                and complete relaxation.</div>
+            <div class="button"><button onclick="a()" class="learnMore font-Yantramanav-Bold">Learn More</button></div>
+        </div>
+
+        <div class="image">
+
+        </div>
+
+    </div>
+
+    <div class="slide" id="slide">
+        <div class="mb-5" style="padding-left: 30px; padding-right: 30px;">
+            <div class="carousel mt-5 mb-5" data-flickity='{ "wrapAround": true }'>
+                <div class="carousel-cell" id="slide-1">
+                    <p>SKINCARE</p>
+                </div>
+                <div class="carousel-cell" id="slide-2">
+                    <p>MASAGE</p>
+                </div>
+                <div class="carousel-cell" id="slide-3">
+                    <p>STEAM</p>
+                </div>
+                <div class="carousel-cell" id="slide-4">
+                    <p>ENJOY</p>
+                </div>
+                <div class="carousel-cell" id="slide-5">
+                    <p>FACIALS</p>
+                </div>
+                <div class="carousel-cell" id="slide-6">
+                    <p>TREATMENTS</p>
+                </div>
+                <div class="carousel-cell" id="slide-7">
+                    <p>MAKEUP</p>
+                </div>
+                <div class="carousel-cell" id="slide-8">
+                    <p>FOOT TREATMENTS</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="flex">
+        <div class="image-2">
+
+        </div>
+
+        <div class="content-2">
+            <div class="title"> Massage & Alternative Treatments</div>
+            <div class="normalText-2">
+                At Langdon Hall, relaxation is our specialty and we provide a variety of massages to
+                induce relaxation. Massages can be used for relaxation or systemic relief of aches and pains. The
+                techniques used can be general or specific and the pressure adjusted to your comfort level. Aromatherapy
+                oils may also be used to enhance the desired effects. Please discuss with your therapist the desired
+                results of your session. All therapists are Registered Massage Therapists.
+                <br>
+                <br>
+                Registered massage receipts, personal training, and yoga sessions available upon request. The Spa
+                welcomes guests of 14 years of age or older for esthetic treatments and 16 years or older for massage
+                treatments.
+                <br>
+                <br>
+                You deserve the best! We use the highest quality organic products, Eminence Organics, for all our
+                organic facials.
+            </div>
+            <div class="button "><button onclick="a()" class="learnMore-2 font-Yantramanav-Bold">Learn More</button></div>
+        </div>
+
+    </div>
+
+    <div class="footer" id='contact'>
+        <div class="phone">012-123-1234</div>
+        <div class="title-2">Join our List</div>
+        <div class="sub">Subscribe to our mailing list to receive updates and promotional offers.</div>
+        <div class="center" style="display: flex;">
+            <div class="input"> <input placeholder="Your email address" /> </div>
+            <div class="button-sub">
+                <button>Subscribe</button>
+            </div>
+
+        </div>
+        <div class="icon" style="display: flex;">
+            <div class="icon1" onclick="changeUrl(1)"> </div>
+            <div class="icon2" onclick="changeUrl(2)"> </div>
+            <div class="icon3" onclick="changeUrl(3)"> </div>
+            <div class="icon4" onclick="changeUrl(4)"> </div>
+        </div>
+        <div class="sub">LTD salon Copyright 2021. All rights reserved. </div>
+    </div>
+</body>
+
+<script>
+    function changeUrl(item){
+        if(item == 1){
+            window.open("https://www.youtube.com/", "blank")
+        }
+        if(item == 2){
+            window.open("https://www.instagram.com/", "blank")
+        }
+        if(item == 3){
+            window.open("https://twitter.com/", "blank")
+        }
+        if(item == 4){
+            window.open("https://www.facebook.com/", "blank")
+        }
+    }
+    function a() {
+        window.location.href = "./last.html"
+    }
+</script>
+
+</html>
